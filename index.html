@@ -1,0 +1,94 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="main.css">
+    <title>Movies</title>
+</head>
+
+<body class="bg-[#FAFAFA]">
+    <header
+        class="flex justify-between bg-white px-10 py-3.5 fixed left-0 right-0 top-0 z-10 border-b border-[#D4DADF] drop-shadow">
+        <div class="flex items-center border-r border-[#D4DADF] pr-[75.2px]">
+            <img class="mr-3" src="./images/swclogo.svg" alt="swc">
+            <p class="text-base font-extrabold pr-4">Movies</p>
+        </div>
+        <div class="flex border-l border-[#D4DADF] pl-3">
+            <img id="search-icon"class="w-3.5 mr-2.5 " src="./images/search.svg" alt="">
+            <form id="search-form" class="m-0">
+                <input id="search" class="text-xs font-semibold px-1 h-full" type="text" placeholder="Quick Search" value="">
+            </form>
+
+        </div>
+
+
+
+    </header>
+    <nav class=" fixed left-0 top-0 bottom-0 w-64 h-full border-r border-[#D4DADF] bg-[#F5F7F9] overflow-auto">
+
+        <ul class="pt-24 pl-10 h-full  font-semibold text-sm">
+            <li class="bg-white py-3 pl-6 pr-20 border border-r-0 border-[#D4DADF]">Search Results</li>
+            <li class="py-3 pl-6 pr-20 cursor-pointer">All team</li>
+            <li class="py-3 pl-6 pr-20 cursor-pointer">Core</li>
+            <li class="py-3 pl-6 pr-20 cursor-pointer">Developers</li>
+            <li class="py-3 pl-6 pr-20 cursor-pointer">Designers</li>
+            <li class="py-3 pl-6 pr-20 cursor-pointer">Mentors</li>
+        </ul>
+
+        <button class="bg-black rounded-lg w-40 h-11 text-white font-semibold text-center absolute bottom-11 left-16">+
+            ADD</button>
+
+
+
+    </nav>
+
+    <div id="movie-grid"
+        class="grid cust-grid-cols-3 cust-grid-cols-2 absolute left-80 right-24 top-[5.5rem] overflow-hidden "">
+
+        <div
+            class="w-auto h-fit max-w-[16rem] min-w-[10rem] rounded-lg drop-shadow-lg bg-white flex-col items-center mx-5 my-4 relative bg-gradient-to-r from-cyan-500 to-blue-500">
+            <img class="h-full w-full" src="./images/test.jpeg" alt="avatar">
+            <p class="text-center text-white text-sm font-medium mt-2 font-sans h-4 absolute bottom-2">Teodoro Luck</p>
+
+        </div>
+
+        <div
+            class="w-auto h-fit max-w-[16rem] min-w-[10rem] rounded-lg drop-shadow-lg bg-white flex-col items-center mx-5 my-4 relative bg-gradient-to-r from-cyan-500 to-blue-500">
+            <img class="h-full w-full" src="./images/test.jpeg" alt="avatar">
+            <p class="text-center text-white text-sm font-medium mt-2 font-sans h-4 absolute bottom-2">Teodoro Luck</p>
+
+        </div>
+        <div
+            class="w-auto h-fit max-w-[16rem] min-w-[10rem] rounded-lg drop-shadow-lg bg-white flex-col items-center mx-5 my-4 relative bg-gradient-to-r from-cyan-500 to-blue-500">
+            <img class="h-full w-full" src="./images/test.jpeg" alt="avatar">
+            <p class="text-center text-white text-sm font-medium mt-2 font-sans h-4 absolute bottom-2">Teodoro Luck</p>
+
+        </div>
+        <div
+            class="w-auto h-fit max-w-[16rem] min-w-[10rem] rounded-lg drop-shadow-lg bg-white flex-col items-center mx-5 my-4 relative bg-gradient-to-r from-cyan-500 to-blue-500">
+            <img class="h-full w-full" src="./images/test.jpeg" alt="avatar">
+            <p class="text-center text-white text-sm font-medium mt-2 font-sans h-4 absolute bottom-2">Teodoro Luck</p>
+
+        </div>
+        <div
+            class="w-auto h-fit max-w-[16rem] min-w-[10rem] rounded-lg drop-shadow-lg bg-white flex-col items-center mx-5 my-4 relative bg-gradient-to-r from-cyan-500 to-blue-500">
+            <img class="h-full w-full" src="./images/test.jpeg" alt="avatar">
+            <p class="text-center text-white text-sm font-medium mt-2 font-sans h-4 absolute bottom-2">Teodoro Luck</p>
+
+        </div>
+        <div
+            class="w-auto h-fit max-w-[16rem] min-w-[10rem] rounded-lg drop-shadow-lg bg-white flex-col items-center mx-5 my-4 relative bg-gradient-to-r from-cyan-500 to-blue-500">
+            <img class="h-full w-full" src="./images/test.jpeg" alt="avatar">
+            <p class="text-center text-white text-sm font-medium mt-2 font-sans h-4 absolute bottom-2">Teodoro Luck</p>
+
+        </div>
+
+    </div>
+
+</body>
+<script src="main.js"></script>
+
+</html>
